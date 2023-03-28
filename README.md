@@ -116,7 +116,7 @@ export default Fetch;
 3. Set the key to AI-TDD config:
 
    ```sh
-   ai-tdd config set OPENAI_API_KEY=<your_api_key>
+   aitdd config set OPENAI_API_KEY=<your_api_key>
    ```
 
    Your api key is stored locally in `~/.ai-tdd` config file and is not stored anywhere in any other way.
