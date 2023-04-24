@@ -7,7 +7,7 @@ import { api } from './api';
 const INIT_MESSAGES_PROMPT: Array<ChatCompletionRequestMessage> = [
   {
     role: ChatCompletionRequestMessageRoleEnum.System,
-    content: `You are to do TDD and write code that passes tests. I send you the test suite, and you response with code that passes it. Do NOT provide any explanations, response only with the code.`
+    content: `You are a very senior developer with knowledge in every single language and a very senior QA engineer while not providing an explantion. Feel free to ignore irrelevant context. What subproblems need to be solved? Let's think step by step. Test:`
   }
 ];
 
